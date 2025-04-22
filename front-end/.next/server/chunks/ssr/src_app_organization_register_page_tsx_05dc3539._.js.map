@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/devdlaner/nf-tickets/front-end/src/app/organization/register/page.tsx"],"sourcesContent":["// frontend/src/app/organization/register/page.tsx\r\n'use client';\r\n\r\nimport CreateEntityPage from '@/components/CreateEntityPage';\r\n\r\nexport default function RegisterOrgRoute() {\r\n  return <CreateEntityPage />;\r\n}\r\n"],"names":[],"mappings":"AAAA,kDAAkD;;;;;;;;;;AAClD;;;AAIe,SAAS;IACtB,qBAAO,8OAAC;;;;;AACV","debugId":null}}]
+}
