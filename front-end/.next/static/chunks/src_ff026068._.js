@@ -5,17 +5,17 @@
 
 var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
-// frontend/src/components/CreateEntityPage.tsx
 __turbopack_context__.s({
     "default": (()=>CreateEntityPage)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$buffer$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/buffer/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$solana$2f$wallet$2d$adapter$2d$react$2f$lib$2f$esm$2f$useAnchorWallet$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@solana/wallet-adapter-react/lib/esm/useAnchorWallet.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$solana$2f$wallet$2d$adapter$2d$react$2f$lib$2f$esm$2f$useWallet$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@solana/wallet-adapter-react/lib/esm/useWallet.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$coral$2d$xyz$2f$anchor$2f$dist$2f$browser$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/node_modules/@coral-xyz/anchor/dist/browser/index.js [app-client] (ecmascript) <module evaluation>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$coral$2d$xyz$2f$anchor$2f$dist$2f$browser$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/@coral-xyz/anchor/dist/browser/index.js [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$project$2d$serum$2f$anchor$2f$dist$2f$browser$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/node_modules/@project-serum/anchor/dist/browser/index.js [app-client] (ecmascript) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$project$2d$serum$2f$anchor$2f$dist$2f$browser$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/@project-serum/anchor/dist/browser/index.js [app-client] (ecmascript) <locals>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$solana$2f$web3$2e$js$2f$lib$2f$index$2e$browser$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__web3$3e$__ = __turbopack_context__.i("[project]/node_modules/@solana/web3.js/lib/index.browser.esm.js [app-client] (ecmascript) <export * as web3>");
 ;
 var _s = __turbopack_context__.k.signature();
@@ -26,38 +26,52 @@ var _s = __turbopack_context__.k.signature();
 function CreateEntityPage() {
     _s();
     const wallet = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$solana$2f$wallet$2d$adapter$2d$react$2f$lib$2f$esm$2f$useAnchorWallet$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useAnchorWallet"])();
-    const { connect, connected } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$solana$2f$wallet$2d$adapter$2d$react$2f$lib$2f$esm$2f$useWallet$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useWallet"])();
+    const { connected } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$solana$2f$wallet$2d$adapter$2d$react$2f$lib$2f$esm$2f$useWallet$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useWallet"])();
     const [name, setName] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
     const [status, setStatus] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const handleCreate = async ()=>{
-        const rpcUrl = ("TURBOPACK compile-time value", "http://127.0.0.1:8899") || 'http://127.0.0.1:8899';
-        const programIdStr = ("TURBOPACK compile-time value", "EvxctWNDziXiJgYq8aCzucvgqXTgHPQ24VsieVZkyLGX");
-        console.log('🔥 NEXT_PUBLIC_SOLANA_RPC_URL =', rpcUrl);
-        console.log('🔥 Program ID =', programIdStr);
-        if (!wallet || !programIdStr) {
-            setStatus('Wallet or Program ID missing.');
+        console.log("🔘 Bouton cliqué");
+        if (!wallet) {
+            setStatus('🔌 Connect your wallet first');
             return;
         }
-        setStatus('Fetching IDL and sending transaction...');
         try {
-            // 1) Load IDL dynamically from public folder
-            const idl = await fetch('/idl/ticketing.json').then((res)=>{
-                if (!res.ok) throw new Error(`Failed to load IDL: ${res.status}`);
-                return res.json();
+            setStatus('📡 Sending transaction...');
+            // 1. Charger l’IDL
+            //   const idl: Idl = await fetch('/idl/ticketing-clean.json').then(res => res.json());
+            //   console.log("🧩 Instructions keys:", idl.instructions?.map(i => i.name));
+            //   for (const ix of idl.instructions) {
+            //     if (!ix.name || !ix.accounts || !ix.args) {
+            //       throw new Error(`❌ Mauvaise instruction détectée: ${JSON.stringify(ix)}`);
+            //     }
+            //   }
+            console.log("AVANT CHARGEMENT IDL");
+            const idlRaw = await fetch('/idl/ticketing-clean.json');
+            const idl = await idlRaw.json();
+            console.log(" IDL chargé:", idl);
+            // Vérifie que le champ 'instructions' existe bien
+            if (!idl.instructions || !Array.isArray(idl.instructions)) {
+                throw new Error("❌ IDL mal formé: 'instructions' est manquant ou invalide.");
+            }
+            // 2. Créer le provider Anchor
+            const connection = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$solana$2f$web3$2e$js$2f$lib$2f$index$2e$browser$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__web3$3e$__["web3"].Connection(("TURBOPACK compile-time value", "http://127.0.0.1:8899"), 'processed');
+            const provider = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$project$2d$serum$2f$anchor$2f$dist$2f$browser$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["AnchorProvider"](connection, wallet, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$project$2d$serum$2f$anchor$2f$dist$2f$browser$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["AnchorProvider"].defaultOptions());
+            // 3. Initialiser le programme
+            //   const programId = new web3.PublicKey(process.env.NEXT_PUBLIC_PROGRAM_ID!);
+            //   const program = new Program(idl, programId, provider);
+            const programId = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$solana$2f$web3$2e$js$2f$lib$2f$index$2e$browser$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__web3$3e$__["web3"].PublicKey("EvxctWNDziXiJgYq8aCzucvgqXTgHPQ24VsieVZkyLGX");
+            console.log('🛠 Création du programme avec :', {
+                idl,
+                programId,
+                provider
             });
-            console.log('🔥 IDL loaded =', idl);
-            // 2) Setup connection and provider
-            const connection = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$solana$2f$web3$2e$js$2f$lib$2f$index$2e$browser$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__web3$3e$__["web3"].Connection(rpcUrl, 'processed');
-            const provider = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$coral$2d$xyz$2f$anchor$2f$dist$2f$browser$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["AnchorProvider"](connection, wallet, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$coral$2d$xyz$2f$anchor$2f$dist$2f$browser$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["AnchorProvider"].defaultOptions());
-            // 3) Instantiate program using IDL and provider
-            const programId = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$solana$2f$web3$2e$js$2f$lib$2f$index$2e$browser$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__web3$3e$__["web3"].PublicKey(("TURBOPACK compile-time value", "EvxctWNDziXiJgYq8aCzucvgqXTgHPQ24VsieVZkyLGX"));
-            const program = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$coral$2d$xyz$2f$anchor$2f$dist$2f$browser$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Program"](idl, provider);
-            // 4) Derive PDA
+            const program = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$project$2d$serum$2f$anchor$2f$dist$2f$browser$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Program"](idl, programId, provider);
+            // 4. Dériver la PDA
             const [entityPda] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$solana$2f$web3$2e$js$2f$lib$2f$index$2e$browser$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__web3$3e$__["web3"].PublicKey.findProgramAddressSync([
-                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$coral$2d$xyz$2f$anchor$2f$dist$2f$browser$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["utils"].bytes.utf8.encode('entity'),
+                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$buffer$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Buffer"].from('entity'),
                 wallet.publicKey.toBuffer()
             ], program.programId);
-            // 5) RPC call
+            // 5. Appel RPC
             await program.methods.initializeEntity(name).accounts({
                 entity: entityPda,
                 authority: wallet.publicKey,
@@ -70,314 +84,56 @@ function CreateEntityPage() {
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "max-w-md mx-auto mt-8 border rounded-lg p-6 shadow",
-        children: !connected ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-            onClick: ()=>connect(),
-            className: "w-full py-2 bg-purple-600 text-white rounded",
-            children: "Connect Wallet"
-        }, void 0, false, {
-            fileName: "[project]/src/components/CreateEntityPage.tsx",
-            lineNumber: 70,
-            columnNumber: 9
-        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "space-y-4",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                    className: "w-full p-2 border rounded",
-                    placeholder: "Entity name",
-                    value: name,
-                    onChange: (e)=>setName(e.target.value)
-                }, void 0, false, {
-                    fileName: "[project]/src/components/CreateEntityPage.tsx",
-                    lineNumber: 78,
-                    columnNumber: 11
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                    onClick: handleCreate,
-                    disabled: !name,
-                    className: "w-full py-2 bg-purple-600 text-white rounded disabled:opacity-50",
-                    children: "Create Entity"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/CreateEntityPage.tsx",
-                    lineNumber: 84,
-                    columnNumber: 11
-                }, this),
-                status && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-sm",
-                    children: status
-                }, void 0, false, {
-                    fileName: "[project]/src/components/CreateEntityPage.tsx",
-                    lineNumber: 91,
-                    columnNumber: 22
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/CreateEntityPage.tsx",
-            lineNumber: 77,
-            columnNumber: 9
-        }, this)
-    }, void 0, false, {
+        className: "max-w-md mx-auto mt-10 p-4 border rounded shadow",
+        children: [
+            connected ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                        type: "text",
+                        placeholder: "Entity Name",
+                        value: name,
+                        onChange: (e)=>setName(e.target.value),
+                        className: "w-full p-2 border rounded mb-2"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/CreateEntityPage.tsx",
+                        lineNumber: 83,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: handleCreate,
+                        disabled: !name,
+                        className: "w-full py-2 bg-purple-600 text-white rounded",
+                        children: "Create Entity"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/CreateEntityPage.tsx",
+                        lineNumber: 90,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-center text-red-500",
+                children: "Please connect your wallet."
+            }, void 0, false, {
+                fileName: "[project]/src/components/CreateEntityPage.tsx",
+                lineNumber: 99,
+                columnNumber: 9
+            }, this),
+            status && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "mt-4 text-sm",
+                children: status
+            }, void 0, false, {
+                fileName: "[project]/src/components/CreateEntityPage.tsx",
+                lineNumber: 101,
+                columnNumber: 18
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/src/components/CreateEntityPage.tsx",
-        lineNumber: 68,
+        lineNumber: 80,
         columnNumber: 5
     }, this);
-} // // frontend/src/components/CreateEntityPage.tsx
- // 'use client';
- // import React, { useState } from 'react';
- // import { useAnchorWallet, useWallet } from '@solana/wallet-adapter-react';
- // import { AnchorProvider, Program, web3, utils } from '@coral-xyz/anchor';
- // export default function CreateEntityPage() {
- //   const wallet = useAnchorWallet();
- //   const { connect, connected } = useWallet();
- //   const [name, setName] = useState('');
- //   const [status, setStatus] = useState<string | null>(null);
- //   const handleCreate = async () => {
- //     // Debug logs
- //     console.log('🔥 NEXT_PUBLIC_SOLANA_RPC_URL =', process.env.NEXT_PUBLIC_SOLANA_RPC_URL);
- //     const programId = process.env.NEXT_PUBLIC_PROGRAM_ID;
- //     console.log('🔥 Program ID =', programId);
- //     if (!wallet) {
- //       setStatus('Please connect your wallet first.');
- //       return;
- //     }
- //     setStatus('Fetching IDL and sending transaction...');
- //     // 1) Load IDL dynamically from public folder
- //     const idl = await fetch('/idl/ticketing.json').then(res => {
- //       if (!res.ok) throw new Error(`Failed to load IDL: ${res.status}`);
- //       return res.json();
- //     });
- //     console.log('🔥 IDL loaded =', idl);
- //     // 2) Setup connection and provider
- //     const rpcUrl = process.env.NEXT_PUBLIC_SOLANA_RPC_URL || 'http://127.0.0.1:8899';
- //     const connection = new web3.Connection(rpcUrl, 'processed');
- //     const provider = new AnchorProvider(connection, wallet, {});
- //         // 3) Instantiate program using provider and dynamic IDL
- //     const ProgramAny: any = Program;
- //     const program = new ProgramAny(
- //       provider,
- //       idl
- //     );
- //     try {
- //       // Derive PDA
- //       const [entityPda] = web3.PublicKey.findProgramAddressSync(
- //         [utils.bytes.utf8.encode('entity'), wallet.publicKey!.toBuffer()],
- //         program.programId
- //       );
- //       // RPC call
- //       await program.methods
- //         .initializeEntity(name)
- //         .accounts({
- //           entity: entityPda,
- //           authority: wallet.publicKey!,
- //           systemProgram: web3.SystemProgram.programId,
- //         })
- //         .rpc();
- //       setStatus(`Entity created at ${entityPda.toBase58()}`);
- //     } catch (err: any) {
- //       console.error(err);
- //       setStatus(`Error: ${err.message}`);
- //     }
- //   };
- //   return (
- //     <div className="max-w-md mx-auto mt-8 border rounded-lg p-6 shadow">
- //       {!connected ? (
- //         <button
- //           onClick={() => connect()}
- //           className="w-full py-2 bg-purple-600 text-white rounded"
- //         >
- //           Connect Wallet
- //         </button>
- //       ) : (
- //         <div className="space-y-4">
- //           <input
- //             className="w-full p-2 border rounded"
- //             placeholder="Entity name"
- //             value={name}
- //             onChange={(e) => setName(e.target.value)}
- //           />
- //           <button
- //             onClick={handleCreate}
- //             disabled={!name}
- //             className="w-full py-2 bg-purple-600 text-white rounded disabled:opacity-50"
- //           >
- //             Create Entity
- //           </button>
- //           {status && <p className="text-sm">{status}</p>}
- //         </div>
- //       )}
- //     </div>
- //   );
- // }
- // // frontend/src/components/CreateEntityPage.tsx
- // 'use client';
- // import React, { useState } from 'react';
- // import { useAnchorWallet, useWallet } from '@solana/wallet-adapter-react';
- // import { AnchorProvider, Program, web3, utils } from '@coral-xyz/anchor';
- // // Import IDL JSON, handle CJS default export
- // import idlJson from '../idl/ticketing.json';
- // const idl = (idlJson as any).default ?? idlJson;
- // export default function CreateEntityPage() {
- //   const wallet = useAnchorWallet();
- //   const { connect, connected } = useWallet();
- //   const [name, setName] = useState('');
- //   const [status, setStatus] = useState<string | null>(null);
- //   const handleCreate = async () => {
- //     // Debug logs
- //     console.log('🔥 NEXT_PUBLIC_SOLANA_RPC_URL =', process.env.NEXT_PUBLIC_SOLANA_RPC_URL);
- //     const programId = process.env.NEXT_PUBLIC_PROGRAM_ID;
- //     console.log('🔥 Program ID =', programId);
- //     if (!wallet) {
- //       setStatus('Please connect your wallet first.');
- //       return;
- //     }
- //     setStatus('Fetching IDL and sending transaction...');
- //     // 1) Load IDL dynamically to avoid structuredClone errors
- //     const idl = await fetch('/idl/ticketing.json').then(res => res.json());
- //     console.log('🔥 IDL loaded =', idl);
- //     // 2) Setup connection and provider
- //     const rpcUrl = process.env.NEXT_PUBLIC_SOLANA_RPC_URL || 'http://127.0.0.1:8899';
- //     const connection = new web3.Connection(rpcUrl, 'processed');
- //     const provider = new AnchorProvider(connection, wallet, {});
- //     // 3) Instantiate program
- //         // 3) Instantiate program (bypass TS type issues)
- //     const ProgramAny: any = Program;
- //     const program = new ProgramAny(
- //       idl,
- //       new web3.PublicKey(programId!),
- //       provider
- //     );
- //     try {
- //       // Derive PDA
- //       const [entityPda] = web3.PublicKey.findProgramAddressSync(
- //         [utils.bytes.utf8.encode('entity'), wallet.publicKey!.toBuffer()],
- //         program.programId
- //       );
- //       // RPC call
- //       await program.methods
- //         .initializeEntity(name)
- //         .accounts({
- //           entity: entityPda,
- //           authority: wallet.publicKey!,
- //           systemProgram: web3.SystemProgram.programId,
- //         })
- //         .rpc();
- //       setStatus(`Entity created at ${entityPda.toBase58()}`);
- //     } catch (err: any) {
- //       console.error(err);
- //       setStatus(`Error: ${err.message}`);
- //     }
- //   };
- //   return (
- //     <div className="max-w-md mx-auto mt-8 border rounded-lg p-6 shadow">
- //       {!connected ? (
- //         <button
- //           onClick={() => connect()}
- //           className="w-full py-2 bg-purple-600 text-white rounded"
- //         >
- //           Connect Wallet
- //         </button>
- //       ) : (
- //         <div className="space-y-4">
- //           <input
- //             className="w-full p-2 border rounded"
- //             placeholder="Entity name"
- //             value={name}
- //             onChange={(e) => setName(e.target.value)}
- //           />
- //           <button
- //             onClick={handleCreate}
- //             disabled={!name}
- //             className="w-full py-2 bg-purple-600 text-white rounded disabled:opacity-50"
- //           >
- //             Create Entity
- //           </button>
- //           {status && <p className="text-sm">{status}</p>}
- //         </div>
- //       )}
- //     </div>
- //   );
- // }
- // // frontend/src/components/CreateEntityPage.tsx
- // 'use client';
- // import React, { useState } from 'react';
- // import { useAnchorWallet, useWallet } from '@solana/wallet-adapter-react';
- // import { AnchorProvider, Program, web3, utils } from '@coral-xyz/anchor';
- // const idl = require('../idl/ticketing.json');
- // //import idl from '../idl/ticketing.json';
- // // import { Button } from './ui/button';
- // // import { Input } from './ui/input';
- // // import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
- // export default function CreateEntityPage() {
- //   const wallet = useAnchorWallet();
- //   const { connect, connected } = useWallet();
- //   const [name, setName] = useState('');
- //   const [status, setStatus] = useState<string | null>(null);
- //   const handleCreate = async () => {
- //     if (!wallet) {
- //       setStatus('Please connect your wallet first.');
- //       return;
- //     }
- //     setStatus('Sending transaction...');
- //     const connection = new web3.Connection(
- //       process.env.NEXT_PUBLIC_SOLANA_RPC_URL!,
- //       'processed'
- //     );
- //     const provider = new AnchorProvider(connection, wallet, {});
- //     const program = new Program(
- //       idl as any,
- //       new web3.PublicKey(process.env.NEXT_PUBLIC_PROGRAM_ID!),
- //       provider
- //     );
- //     try {
- //       const [entityPda] = web3.PublicKey.findProgramAddressSync(
- //         [utils.bytes.utf8.encode('entity'), wallet.publicKey!.toBuffer()],
- //         program.programId
- //       );
- //       await program.methods
- //         .initializeEntity(name)
- //         .accounts({
- //           entity: entityPda,
- //           authority: wallet.publicKey!,
- //           systemProgram: web3.SystemProgram.programId,
- //         })
- //         .rpc();
- //       setStatus(`Entity created at ${entityPda.toBase58()}`);
- //     } catch (err: any) {
- //       console.error(err);
- //       setStatus(`Error: ${err.message}`);
- //     }
- //   };
- //   return (
- //     <div className="max-w-md mx-auto mt-8 border rounded-lg p-6 shadow">
- //       {!connected ? (
- //         <button
- //           onClick={() => connect()}
- //           className="w-full py-2 bg-purple-600 text-white rounded"
- //         >
- //           Connect Wallet
- //         </button>
- //       ) : (
- //         <div className="space-y-4">
- //           <input
- //             className="w-full p-2 border rounded"
- //             placeholder="Entity name"
- //             value={name}
- //             onChange={(e) => setName(e.target.value)}
- //           />
- //           <button
- //             onClick={handleCreate}
- //             disabled={!name}
- //             className="w-full py-2 bg-purple-600 text-white rounded disabled:opacity-50"
- //           >
- //             Create Entity
- //           </button>
- //           {status && <p className="text-sm">{status}</p>}
- //         </div>
- //       )}
- //     </div>
- //   );
- // }
-_s(CreateEntityPage, "vkfPQcZaiDYE2ji1J+//athLR6c=", false, function() {
+}
+_s(CreateEntityPage, "bs5Sv2l9dwMgqt7eG3f1yNG5ca8=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$solana$2f$wallet$2d$adapter$2d$react$2f$lib$2f$esm$2f$useAnchorWallet$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useAnchorWallet"],
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$solana$2f$wallet$2d$adapter$2d$react$2f$lib$2f$esm$2f$useWallet$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useWallet"]

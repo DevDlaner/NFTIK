@@ -1,12 +1,13 @@
 {
-  "provider": {
-    "cluster": "localnet",
-    "url": "http://127.0.0.1:8899",
-    "wallet": "~/.config/solana/id.json"
-  },
-  "programs": {
-    "localnet": {
-      "ticketing": "EvxctWNDziXiJgYq8aCzucvgqXTgHPQ24VsieVZkyLGX"
+    "provider": {
+      "cluster": "devnet",
+      "wallet": "~/.config/solana/id.json"
+    },
+    "programs": {
+      "localnet": {
+        "organizationRegistry": "your_organization_registry_program_id_here",
+        "organization": "your_organization_program_id_here",
+        "event": "your_event_program_id_here"
+      }
     }
   }
-}

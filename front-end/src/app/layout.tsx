@@ -1,4 +1,3 @@
-import '@solana/wallet-adapter-react-ui/styles.css'; // styles par défaut du modal
 import type { Metadata } from "next";
 import "./globals.css";
 import ClientLayout from "./client-layout";

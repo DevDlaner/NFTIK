@@ -52,7 +52,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$client$2d$layo
 ;
 ;
 ;
-;
 const metadata = {
     title: "Solana NFT Ticketing",
     description: "A NFT ticketing system built on Solana"
@@ -65,17 +64,17 @@ function RootLayout({ children }) {
                 children: children
             }, void 0, false, {
                 fileName: "[project]/src/app/layout.tsx",
-                lineNumber: 19,
+                lineNumber: 18,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 18,
+            lineNumber: 17,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 17,
+        lineNumber: 16,
         columnNumber: 5
     }, this);
 }
